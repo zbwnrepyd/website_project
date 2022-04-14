@@ -1,0 +1,4 @@
+root = true
+[*]
+crlf = lf
+insert_final_newline = true

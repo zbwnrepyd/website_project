@@ -1,7 +1,10 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   transpileDependencies: true,
+  lintOnSave: false,
 });
+
+
 
 // module.exports={//扩展配置
 //   configureWebpack:{
@@ -10,7 +13,7 @@ module.exports = defineConfig({
 //           open:true,//自动启动浏览器
 //           //mock数据
 //           before(app){
-              
+
 //           }
 //       }
 //   }
